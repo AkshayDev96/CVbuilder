@@ -1,9 +1,9 @@
 import axios from "axios";
 
 axios.interceptors.request.use(function (config) {
-    const token = JSON.parse(localStorage.getItem('userInfo'))?.data?.token
-    if(token)
-        config.headers.Authorization =  token;
+    // const token = JSON.parse(localStorage.getItem('userInfo'))?.data?.token
+    // if(token)
+    //     config.headers.Authorization =  token;
     config.baseURL = process.env.REACT_APP_SERVER
     config.withCredentials=true
     // config.url = `${process.env.REACT_APP_SERVER}`

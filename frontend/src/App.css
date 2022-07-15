@@ -60,3 +60,8 @@ a:-webkit-any-link {
 .css-1ws8119-MuiDivider-root::before,.css-1ws8119-MuiDivider-root::after{
   border-top: thin solid orange !important;
 }
+
+.space{
+  margin-left: 10px;
+  padding: 10px;
+}

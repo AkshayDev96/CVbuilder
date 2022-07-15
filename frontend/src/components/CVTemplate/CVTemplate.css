@@ -1,0 +1,56 @@
+.profile{
+    height: 100px;
+    width: 100px;
+}
+
+.box-cv{
+    display: block;
+    margin: auto;
+    border: 3px solid red;
+    z-index: 0;
+    padding: 15px;
+    background: cornsilk;
+    box-shadow: 0px 0px 3px #000;
+    font-size: 14px;
+    width: 70%;
+}
+
+
+
+.body{
+    line-height: 1rem;
+}
+
+.email{
+    font-weight: bold;
+}
+
+.para{
+    word-break: keep-all;
+    line-height: 2rem;
+}
+
+.edu{
+    border-radius: 10px;
+    background: #1cb6e04f;
+    padding: 10px 9px;
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+}
+
+.workexp{
+    border-radius: 10px;
+    background: #1cb6e04f;
+    padding: 10px 9px;
+    margin-bottom: 10px;
+}
+
+.skills{
+    border-radius: 10px;
+    background: #1cb6e04f;
+    padding: 10px 9px;
+    margin-bottom: 10px;
+}
